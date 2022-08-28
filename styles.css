@@ -2,3 +2,40 @@ body{
     background: white;
     font-family:'Courier New', Courier, monospace
 }
+#pageGrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1 fr;
+    grid-template-rows: 2fr 1fr 3fr 1fr 2fr;
+}
+#menu{
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+}
+#nav{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+#projTitle{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#projectGrid{
+    grid-column: 2 / 3;
+    grid-row: 2 / 6;
+}
+#announceTitle{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+#announcementGrid{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+#trendingTitle{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+#trendingGrid{
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
