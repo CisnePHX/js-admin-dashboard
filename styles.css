@@ -42,11 +42,11 @@ body{
     display: flex;
     font-size: 20px;
     padding: 20px;
-    align-content:flex-end;
+    align-items:baseline
 }
 #yourProjects{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 25px;
     padding: 20px;
