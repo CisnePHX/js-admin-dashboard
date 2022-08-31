@@ -23,6 +23,7 @@ body{
 #nav{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    font-size: 16px;
     border: black 2px solid;
 }
 #projectGrid{
@@ -32,24 +33,26 @@ body{
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 9fr;
     border: black 2px solid;
-    background-color: lightgray
-
+    background-color: lightgray;
+    font-size: 18px;
 }
 #projTitle{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    border: black 2px solid;
+    font-size: 20px;
 }
 #yourProjects{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 25px;
+    padding: 20px;
 }
 .project{
     background-color: white;
-    padding: 15px;
-    border: black 2px solid;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 #announceTitle{
     grid-column: 2 / 3;
@@ -73,6 +76,7 @@ body{
 .announcement{
     background-color: white;
     padding: 15px;
+    border: black 2px solid;
 }
 #trendingTitle{
     grid-column: 1 / 2;
@@ -88,4 +92,5 @@ body{
 .trending{
     background-color: white;
     padding: 15px;
+    border: black 2px solid;
 }
