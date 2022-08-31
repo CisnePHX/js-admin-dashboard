@@ -39,7 +39,10 @@ body{
 #projTitle{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    display: flex;
     font-size: 20px;
+    padding: 20px;
+    align-content:flex-end;
 }
 #yourProjects{
     display: grid;
