@@ -24,7 +24,42 @@ body{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     font-size: 16px;
-    border: black 2px solid;
+    border-bottom: grey 3px solid;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: start;
+}
+#searchAndAccount{
+    grid-row: 1 /2;
+    display: grid;
+    grid-template-columns: 9fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+#accountDetails{
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+#new, #upload, #share{
+    background-color: #0486d1;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    padding: 10px;
+}
+#hello{
+    grid-column: 1 / 2;
+}
+#new{
+    grid-column: 2 / 3;
+}
+#upload{
+    grid-column: 3 / 4;
+}
+#share{
+    grid-column: 4 / 5;;
 }
 #projectGrid{
     grid-column: 2 / 3;
