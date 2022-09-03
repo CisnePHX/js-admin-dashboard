@@ -14,11 +14,16 @@ body{
 #menu{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    border: black 2px solid;
+    display: grid;
+    grid-template-rows: 2fr repeat(10, 1fr);
     background-color: #0486d1;
     color: white;
     font-weight: bolder;
     font-size: 24px;
+    padding: 25px;
+}
+.menuItem{
+    padding: 5px;
 }
 #nav{
     grid-column: 2 / 3;
