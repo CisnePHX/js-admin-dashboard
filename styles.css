@@ -5,9 +5,8 @@ body{
 }
 #pageGrid{
     display: grid;
-    grid-template-columns: minmax(0,250px) 4fr;
+    grid-template-columns: minmax(0,270px) 4fr;
     grid-template-rows: 1fr 5fr;
-    border: black 2px solid;
     width: 100vw;
     height: 100vh;
 }
@@ -15,15 +14,20 @@ body{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     display: grid;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 2fr repeat(10, 1fr);
     background-color: #0486d1;
     color: white;
     font-weight: bolder;
     font-size: 24px;
-    padding: 25px;
+    padding: 30px;
+}
+#dashboardTitle{
+    font-size: 32px;
 }
 .menuItem{
-    padding: 5px;
+    padding: 7px;
+    margin: 0px;
 }
 #nav{
     grid-column: 2 / 3;
