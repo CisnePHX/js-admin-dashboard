@@ -33,7 +33,7 @@ body{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     font-size: 16px;
-    border-bottom: grey 3px solid;
+    border-bottom: grey 5px solid;
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-items: start;
@@ -45,6 +45,10 @@ body{
     padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
+}
+#computerSVG{
+    height: auto;
+    max-width: 75px;
 }
 #search{
     display: flex;
@@ -89,7 +93,6 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 9fr;
-    border: black 2px solid;
     background-color: lightgray;
     font-size: 18px;
 }
