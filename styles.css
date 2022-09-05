@@ -101,7 +101,10 @@ body{
     grid-row: 1 / 2;
     display: flex;
     font-size: 20px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
     align-items:baseline
 }
 #yourProjects{
@@ -124,40 +127,46 @@ body{
     grid-row: 1 / 2;
     display: flex;
     font-size: 20px;
-    padding: 20px;
-    align-itmes: baseline;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    align-items: baseline;
+    margin-left: 5px;
 }
 #announcementGrid{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 1fr 4fr;
+    margin: 30px;
 }
 #listAnnounce{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     gap: 10px;
     background-color: white;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 40px;
 }
 #trendingTitle{
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     gap: 10px;
-    border: black 2px solid;
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    align-items: baseline;
 }
 #trendingGrid{
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-    border: black 2px solid;
+    background-color: white;
     border-radius: 10px;
 }
 .trending{
-    background-color: white;
     padding: 15px;
-    border: black 2px solid;
+
 }
