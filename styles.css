@@ -108,24 +108,24 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 25px;
+    gap: 30px;
     padding: 20px;
 }
 .project{
     background-color: white;
-    padding: 20px;
+    padding: 25px;
     font-size: 18px;
     border-radius: 10px;
 }
 #announceTitle{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    border: black 2px solid;
+    font-size: 20px;
 }
 #announcementGrid{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    border: black 2px solid;
+
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr;
