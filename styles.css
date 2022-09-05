@@ -105,11 +105,13 @@ body{
     align-items:baseline
 }
 #yourProjects{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 30px;
-    padding: 20px;
+    padding: 30px;
 }
 .project{
     background-color: white;
@@ -120,7 +122,10 @@ body{
 #announceTitle{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: flex;
     font-size: 20px;
+    padding: 20px;
+    align-itmes: baseline;
 }
 #announcementGrid{
     grid-column: 2 / 3;
@@ -129,28 +134,25 @@ body{
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr 3fr 3fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 4fr 1fr 4fr;
 }
 #listAnnounce{
     grid-column: 1 / 2;
-    grid-row: 1 / 4;
+    grid-row: 1 / 2;
     gap: 10px;
-    border: black 2px solid;
-}
-.announcement{
     background-color: white;
-    padding: 15px;
-    border: black 2px solid;
+    border-radius: 20px;
+    padding: 20px;
 }
 #trendingTitle{
     grid-column: 1 / 2;
-    grid-row: 4 / 5;
+    grid-row: 2 / 3;
     gap: 10px;
     border: black 2px solid;
 }
 #trendingGrid{
     grid-column: 1 / 2;
-    grid-row: 5 / 9;
+    grid-row: 3 / 4;
     border: black 2px solid;
     border-radius: 10px;
 }
