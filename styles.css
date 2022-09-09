@@ -58,6 +58,9 @@ body{
     display: flex;
     justify-content: end;
 }
+h3 {
+    color: black;
+}
 #accountDetails{
     grid-row: 2 / 3;
     display: grid;
@@ -118,7 +121,7 @@ body{
 }
 .project{
     background-color: white;
-    font: grey;
+    color: #5D5D5F;
     padding: 25px;
     font-size: 18px;
     border-radius: 10px;
