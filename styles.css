@@ -118,6 +118,7 @@ body{
 }
 .project{
     background-color: white;
+    font: grey;
     padding: 25px;
     font-size: 18px;
     border-radius: 10px;
