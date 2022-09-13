@@ -45,6 +45,8 @@ body{
     padding-top: 30px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;;
 }
 #search{
     grid-column: 1 / 2;
@@ -53,7 +55,7 @@ body{
     align-items: flex-start;
 }
 #searchBar{
-    height: 35px;
+    height: 32px;
     width: 800px;
     border-radius: 20px;
     border-width: 0px;
@@ -76,6 +78,9 @@ body{
     justify-content: center;
     margin-top: 25px;
 }
+#hi{
+    font-weight: bold;
+}
 h3 {
     color: black;
     margin: 5px;
@@ -84,21 +89,26 @@ h3 {
     height: 80px;
     width: auto;
     float: left;
+    margin: 10px;
 }
 #accountDetails{
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 8fr 1fr 1fr 1fr;
     padding: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 #new, #upload, #share{
     background-color: #0486d1;
+    height: 50px;
     border-width: 1px;
     border-radius: 30px;
     color: white;
     font-size: 20px;
     font-weight: bolder;
     margin: 20px;
+    margin-top: 35px;
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
