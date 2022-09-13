@@ -46,18 +46,17 @@ body{
     padding-right: 20px;
     padding-left: 20px;
 }
-#computerSVG{
-    height: auto;
-    max-width: 75px;
-}
 #search{
+    grid-column: 1 / 2;
     display: flex;
     justify-content: center;
+    align-items:flex-start;
 }
 #searchBar{
     height: 25px;
     width: 450px;
     border-radius: 20px;
+    border-width: 0px;
     background-color: #d7d8db;
 }
 #searchIcon{
@@ -65,6 +64,7 @@ body{
     border-width: 0px;
     justify-content: center;
     align-items: center;
+    float: right;
 }
 #user{
     display: flex;
@@ -77,6 +77,7 @@ h3 {
 .catIcon{
     height: 80px;
     width: auto;
+    float: left;
 }
 #accountDetails{
     grid-row: 2 / 3;
@@ -86,6 +87,7 @@ h3 {
 }
 #new, #upload, #share{
     background-color: #0486d1;
+    border-width: 1px;
     border-radius: 30px;
     color: white;
     font-size: 20px;
