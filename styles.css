@@ -72,6 +72,7 @@ body{
 }
 h3 {
     color: black;
+    margin: 5px;
 }
 .catIcon{
     height: 80px;
@@ -171,6 +172,10 @@ h3 {
     color:#5D5D5F;
     border-radius: 10px;
     padding: 40px;
+}
+.announcementFormat{
+    margin: 0px;
+    padding-bottom: 35px;;
 }
 #trendingTitle{
     grid-column: 1 / 2;
