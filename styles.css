@@ -5,7 +5,7 @@ body{
 }
 #pageGrid{
     display: grid;
-    grid-template-columns: minmax(0,270px) 4fr;
+    grid-template-columns: minmax(0,280px) 4fr;
     grid-template-rows: 1fr 5fr;
     width: 100vw;
     height: 100vh;
@@ -19,11 +19,11 @@ body{
     background-color: #0486d1;
     color: white;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 22px;
     padding: 30px;
 }
 #dashboardTitle{
-    font-size: 32px;
+    font-size: 35px;
 }
 .menuItem{
     padding: 7px;
