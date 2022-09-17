@@ -5,7 +5,7 @@ body{
 }
 #pageGrid{
     display: grid;
-    grid-template-columns: minmax(0,280px) 4fr;
+    grid-template-columns: minmax(0,285px) 4fr;
     grid-template-rows: 1fr 5fr;
     width: 100vw;
     height: 100vh;
@@ -24,6 +24,9 @@ body{
 }
 #dashboardTitle{
     font-size: 35px;
+}
+.dTitle{
+    padding-top: 15px;
 }
 .menuItem{
     padding: 7px;
