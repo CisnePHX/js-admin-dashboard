@@ -160,6 +160,7 @@ h3 {
     padding: 25px;
     font-size: 18px;
     border-radius: 10px;
+    border-left: 15px solid #f5aa42 ;
 }
 #announceTitle{
     grid-column: 2 / 3;
