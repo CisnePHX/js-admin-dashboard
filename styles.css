@@ -100,6 +100,8 @@ h3 {
     color: black;
     margin: 5px;
     font-size: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 h2{
     font-size: 35px;
@@ -153,7 +155,7 @@ h2{
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 9fr;
     background-color: lightgray;
-    font-size: 18px;
+    font-size: 25px;
 }
 #projTitle{
     grid-column: 1 / 2;
@@ -172,7 +174,7 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 35px;
     padding: 30px;
     padding-top: 0px;
 }
@@ -180,7 +182,7 @@ h2{
     background-color: white;
     color: #5D5D5F;
     padding: 25px;
-    font-size: 18px;
+    font-size: 25px;
     border-radius: 10px;
     border-left: 15px solid #f5aa42 ;
 }
@@ -204,6 +206,7 @@ h2{
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 1fr 4fr;
     margin-left: 30px;
+    margin-right: 20px;
     
 }
 #listAnnounce{
