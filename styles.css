@@ -195,6 +195,10 @@ h2{
 .projectActions{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    margin-left: auto;
+}
+.projectActions, img{
+    padding: 15px;
 }
 #announceTitle{
     grid-column: 2 / 3;
