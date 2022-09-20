@@ -5,7 +5,7 @@ body{
 }
 #pageGrid{
     display: grid;
-    grid-template-columns: minmax(0,320px) 4fr;
+    grid-template-columns: minmax(0,350px) 4fr;
     grid-template-rows: 1fr 5fr;
     width: 100vw;
     height: 100vh;
@@ -269,6 +269,7 @@ hr{
     width: auto;
     float: left;
     padding: 10px;
+    padding-top: 30px;
 }
 #trendRow1{
     grid-column: 1 / 3;
